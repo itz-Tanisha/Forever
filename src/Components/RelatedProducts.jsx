@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import { ShopContext } from '../Context/ShopContext';
+import { ShopContext } from '../Context/ShopContext.jsx';
 import { useContext, useEffect, useState } from 'react';
-import Title from './Title';
-import ProductdItem from './ProductItem';
+import Title from './Title.jsx';
+import ProductdItem from './ProductItem.jsx';
 
 const RelatedProducts = ({ category, subCategory }) => {
   const { products } = useContext(ShopContext);
